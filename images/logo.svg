@@ -1,0 +1,30 @@
+<svg version="1.1"
+     baseProfile="full"
+     width="200" height="160"
+     xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="letter">
+      <rect x="90" y="30" width="75" height="35" />
+    </clipPath>
+  </defs>
+  <ellipse cx="100" cy="80" rx="100" ry="80" fill="#ED1D24"/>
+  <ellipse cx="100" cy="80" rx="90" ry="72" fill="#1A3697" stroke-width="2" stroke="white" />
+  <g transform="skewX(-13)">
+    <rect x="90" y="30" width="75" height="35" fill="white" />
+    <rect x="90" y="30" width="75" height="35" fill="white" />
+    <rect x="151" y="33" width="10" height="12" fill="#ED1D24" />
+    <path stroke="black" stroke-width="1" fill="none" d="M94, 35 h15" />
+    <path stroke="black" stroke-width="1" fill="none" d="M94, 37 h15" />
+    <path stroke="black" stroke-width="1" fill="none" d="M94, 39 h15" />
+    <path stroke="black" stroke-width="1" fill="none" d="M119, 46 h17" />
+    <path stroke="black" stroke-width="1" fill="none" d="M119, 48 h17" />
+    <path stroke="black" stroke-width="1" fill="none" d="M119, 50 h17" />
+    <path fill="none" stroke="#ED1D24" stroke-width="4" stroke-dasharray="2,4" d="M90,30 h75 v35 h-75 v-35" clip-path="url(#letter)"/>
+    <path fill="none" stroke="blue" stroke-width="4" stroke-dasharray="2,4" stroke-dashoffset="2" d="M90,30 h75 v35 h-75 v-35" clip-path="url(#letter)"/>
+    <path fill="none" stroke="white" stroke-width="5" d="M57,35 h25" stroke-linecap="round"/>
+    <path fill="none" stroke="white" stroke-width="5" d="M50,47 h32" stroke-linecap="round"/>
+    <path fill="none" stroke="white" stroke-width="5" d="M54,59 h28" stroke-linecap="round"/>
+  </g>
+  <text x="100" y="98" text-anchor="middle" fill="white" font-size="28" font-weight="700" font-family="sans-serif" font-style="italic">MONTEREY</text>
+  <text x="100" y="130" text-anchor="middle" fill="white" font-size="28" font-weight="700" font-family="sans-serif" font-style="italic">PARK</text>
+</svg>
