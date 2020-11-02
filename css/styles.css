@@ -23,6 +23,7 @@ body {
 main {
   padding: 80px 0;
 }
+
 .container-flex {
   display:flex;
   margin: 0 auto;
@@ -34,6 +35,7 @@ main {
   text-transform: uppercase;
   font-style: italic;
   justify-content: center;
+  align-items:center;
 }
 
 h1 {
@@ -51,15 +53,89 @@ h3 {
   vertical-align: middle;
 }
 
-.info {
+.announcement {
+  color: #0054a3;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 0.75em;
+}
+
+.hero {
   padding: 2em 0.5em;
   font-size: 1.5rem;
   line-height: 1.5;
   justify-content: space-around;
   color: #474747;
+  align-items: center;
+  flex-direction: column;
+}
+
+.info {
+  flex-direction: column;
+  margin: 0 3%;
 }
 
 .separator {
-  height: 3em;
-  border-left: 2px solid #7D7D7D;
+  display:none;
+}
+
+.moving-figure {
+  max-width: 90%;
+  font-size: 1rem;
+}
+
+.moving-img {
+  margin-top: 2em;
+  width: 100%;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #ED1D24;
+}
+
+.services-header {
+  text-align: center;
+  color: #474747;
+}
+
+.services {
+  margin: 2em auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.services > li {
+  font-size: 1.25em;
+  margin: 0.5em 0.75em;
+}
+
+
+.footer {
+  padding: 0 1em;
+  font-size: 1.2rem;
+  color: #474747;
+  text-align: center;
+}
+
+@media screen and (min-width: 680px) {
+  .separator {
+    display: block;
+    height: 10em;
+    border-left: 2px solid #7D7D7D;
+  }
+
+  .hero {
+    flex-direction: row;
+  }
+
+  .moving-figure {
+    max-width: 40%;
+  }
+
+  .services {
+    height: 15em;
+  }
+
 }
