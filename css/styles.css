@@ -36,19 +36,20 @@ main {
   font-style: italic;
   justify-content: center;
   align-items:center;
+  padding: 0 5px;
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 3rem;
   line-height: 1;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .header-img {
-  height: 7rem;
+  height: 5rem;
   padding: 0 1em 0 0;
   vertical-align: middle;
 }
@@ -56,13 +57,13 @@ h3 {
 .announcement {
   color: #0054a3;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
   margin-top: 0.75em;
 }
 
 .hero {
-  padding: 2em 0.5em;
+  padding: 1em 0.5em;
   font-size: 1.5rem;
   line-height: 1.5;
   justify-content: space-around;
@@ -120,6 +121,18 @@ h3 {
 }
 
 @media screen and (min-width: 680px) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  .announcement {
+    font-size: 3rem;
+  }
+
   .separator {
     display: block;
     height: 10em;
@@ -128,6 +141,7 @@ h3 {
 
   .hero {
     flex-direction: row;
+    padding: 2em 0.5em;
   }
 
   .moving-figure {
